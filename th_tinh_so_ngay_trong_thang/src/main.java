@@ -21,6 +21,7 @@ public class main {
             case 9:
             case 11:
                 daysInMonth = "30";
+                break;
             case 2:
                 daysInMonth = "29 hoặc 30";
             default:
