@@ -11,7 +11,7 @@ public class Main {
 
         System.out.print("Enter months: ");
         double interesRate = sc.nextDouble();
-        ;
+
 
         double totalInterest = 0;
 
