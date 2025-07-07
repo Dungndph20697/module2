@@ -15,7 +15,6 @@ public class Main {
 
             }
         }
-
     }
 
     private static String docSo(int number) {
