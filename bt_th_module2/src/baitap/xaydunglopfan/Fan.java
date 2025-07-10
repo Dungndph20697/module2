@@ -1,12 +1,12 @@
 package baitap.xaydunglopfan;
 
 public class Fan {
-    private final int SLOW = 1;
-    private final int MEDIUM = 2;
-    private final int FAST = 3;
+    final static int SLOW = 1;
+    final static int MEDIUM = 2;
+    final static int FAST = 3;
 
     private int speed = SLOW;
-    private boolean on =false;
+    private boolean on = false;
     private double radius = 5;
     private String color = "blue";
 
@@ -44,9 +44,11 @@ public class Fan {
 
     @Override
     public String toString() {
-        if (this.on){
-            return "";
+        if (this.on) {
+            return "SPEED: " + this.speed + ", RADIUS: " + this.radius + ", COLOR: " + this.color + " fan is on";
+        } else {
+            return "RADIUS: " + this.radius + ", COLOR: " + this.color + " fan is off";
         }
-        return "Fan{}";
+
     }
 }
