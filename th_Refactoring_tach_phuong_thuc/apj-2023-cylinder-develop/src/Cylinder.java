@@ -6,11 +6,11 @@ public class Cylinder {
         return volume;
     }
 
-    private static double getBaseArea(int radius) {
+    public static double getBaseArea(int radius) {
         return Math.PI * radius * radius;
     }
 
-    private static double getPerimeter(int radius) {
+    public static double getPerimeter(int radius) {
         return 2 * Math.PI  * radius;
     }
 }
