@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NextDayCalculatorTestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-16T07:49:14" hostname="DUNG" time="0.024">
+  <properties/>
+  <testcase name="nextDayCalculator()" classname="NextDayCalculatorTestTest" time="0.024"/>
+  <system-out><![CDATA[Ngay tiep theo la: 23/04/2003
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
