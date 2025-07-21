@@ -21,7 +21,6 @@ public class MyList<E> {
             ensurCapa();
         }
         element[size++] = e;
-
     }
 
     public E get(int i) {
