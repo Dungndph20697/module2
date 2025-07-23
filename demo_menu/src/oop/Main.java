@@ -9,6 +9,5 @@ public class Main {
         System.out.println(person1.sayHello());
 
         Person person2 = new Person("dung",20);
-
     }
 }
