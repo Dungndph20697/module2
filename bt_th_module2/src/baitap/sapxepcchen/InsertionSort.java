@@ -8,7 +8,7 @@ public class InsertionSort {
         int n = arr.length;
 
         for (int i = 1; i < n; i++) {
-            int key = arr[i]; 
+            int key = arr[i];
             int j = i - 1;
 
             while (j >= 0 && arr[j] > key) {
@@ -17,20 +17,24 @@ public class InsertionSort {
             }
 
             arr[j + 1] = key;
+            System.out.print("Bước " + i + ": ");
+            printArray(arr);
         }
 
         System.out.println("Mảng sau khi sắp xếp:");
+        printArray(arr);
+        System.out.println();
+    }
+
+    private static void printArray(int[] arr) {
         for (int value : arr) {
             System.out.print(value + " ");
         }
-        System.out.println();
     }
 
     public static void main(String[] args) {
         System.out.println("Mảng ban đầu:");
-        for (int value : list) {
-            System.out.print(value + " ");
-        }
+        printArray(list);
         System.out.println();
         insertionSort(list);
     }
