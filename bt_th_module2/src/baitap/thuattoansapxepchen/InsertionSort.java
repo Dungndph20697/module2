@@ -13,7 +13,7 @@ public class InsertionSort {
                 j--;
             }
 
-            list[j + 1] = key; 
+            list[j + 1] = key;
         }
     }
 
@@ -27,6 +27,5 @@ public class InsertionSort {
         for (Integer i : list) {
             System.out.print(i + " ");
         }
-
     }
 }
