@@ -12,7 +12,7 @@ public class Product {
         this.price = price;
     }
 
-    public Product() {
+    public Product(String sp1, String productA, double v, String honda, String moi) {
     }
 
     public int getId() {
